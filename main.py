@@ -1,6 +1,11 @@
-# define a function to check if a number is prime
-def prime():
-    n = int(input("Enter the number? "))
-    if n / n == 1:
-        print("The number", n, "is a prime number")
-    prime()
+import json
+import requests
+import pprint
+request = requests.get("https://opentdb.com/api.php?amount=1")
+response = request.status_code
+Text = request.text
+Header = request.headers
+read = json.loads(request.text)
+pprint.pprint(read)
+type(read)
+print(read['results'][0]['correct_answer'])
