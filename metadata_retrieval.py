@@ -7,7 +7,7 @@ import pprint
 api_url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/info"
 
 # Sample API key (replace with your actual API key)
-api_key = "3103fef6-378d-419a-ad58-b80f24517296"
+api_key = "(replace with your actual API key)"
 
 # Get user input for contract address, slug, or symbol
 user_input = input("Enter contract address, slug, or symbol: ")
