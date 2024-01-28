@@ -2,7 +2,7 @@ import requests
 import json
 
 # provide your API key
-api_key = "BBWZJS3AQS8QKN8YRDI1Y1A5EVCIXDXE6X"
+api_key = "(replace with your actual API key)"
 
 # Etherscan.io API endpoint for Ether balance of multiple addresses
 api_url = "https://api.etherscan.io/api"
