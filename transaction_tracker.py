@@ -3,7 +3,7 @@ import json
 import pprint
 
 # Sample API key (replace with your actual API key)
-api_key = "BBWZJS3AQS8QKN8YRDI1Y1A5EVCIXDXE6X"
+api_key = "(replace with your actual API key)"
 
 # Etherscan.io API endpoint for ERC-20 Token Transfer Events
 api_url = "https://api.etherscan.io/api"
